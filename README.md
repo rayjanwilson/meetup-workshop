@@ -1,9 +1,10 @@
-# Part 2
+# Part 3
 
-We now have inquirer and node https setup and are connecting to github!  
+Awesome work so far!  Now its time to see if we can read the `.git/config` file so that we can configure the github api to clone/merge from the repo. 
 
-* Because we'll be using a lot of asynchronous code we're going to chain promises
-* We also will be hitting the API more than once, so it would be nice to make it more generic and reusable.
+Some big changes here from part 2:
+
+
 
 # Exercise
 
