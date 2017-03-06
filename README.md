@@ -1,13 +1,19 @@
 # Part 1
 
-We now have inquirer and node https setup and are connecting to github!  
+Welcome to the software craftmanship meetup workshop - (mini)
 
-* Because we'll be using a lot of asynchronous code we're going to chain promises
-* We also will be hitting the API more than once, so it would be nice to make it more generic and reusable.
+Thanks for joining us!
 
-# Exercise
+## Fork repo
 
-* Create GithubApi.js 
-  * Set it up so that you can re-use calls to github without having to set the headers each time.
-  * a nice api would be something like `github.get('/users/:user')`
-  
+Please fork this repo in github (we'll use your forks later to test the pull request tool)
+
+## Introduction
+
+This part is mostly an introduction, we'll cover the basics of node, and what we'll be doing today.
+
+* Anatomy of the package.json
+* Creating binaries
+* Using NPM link and NPM Pack
+* Using Node HTTPS
+
