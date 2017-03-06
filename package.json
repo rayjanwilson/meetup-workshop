@@ -1,19 +1,28 @@
 {
-  "name": "meetup-workshop",
+  "name": "pr-chief",
   "version": "1.0.0",
   "description": "This is for creating a pull request management tool with nodejs.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node lib"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MattMcFarland/meetup-workshop.git"
   },
+  "dependencies": {
+    "cross-spawn": "^5.1.0",
+    "git-config": "0.0.7",
+    "inquirer": "^3.0.6"
+  },
+  "devDependencies": {
+    "standard": "^9.0.0"
+  },  
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MattMcFarland/meetup-workshop/issues"
   },
-  "homepage": "https://github.com/MattMcFarland/meetup-workshop#readme"
+  "homepage": "https://github.com/MattMcFarland/meetup-workshop#readme",
+  "keywords": []
 }

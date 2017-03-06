@@ -1,11 +1,13 @@
-# Fork this repo
-This is for creating a pull request management tool with nodejs. 
-Big thanks for participating!!
+# Part 1
 
-## Four Parts
+We now have inquirer and node https setup and are connecting to github!  
 
-1. Quick introduction to node - we'll create a new project and then install it in another project, we'll see how to create a binary with npm and also touch on the anatomy of package.json
+* Because we'll be using a lot of asynchronous code we're going to chain promises
+* We also will be hitting the API more than once, so it would be nice to make it more generic and reusable.
 
-2. We'll start our project (this repo) for prchief, (pull request chief) You'll see how to connect via http/https using request from node using the http/s module. I'll show how to make one then we'll refactor in our own time
+# Exercise
 
-3. We'll forward to a more refactored version of prhcief, with its githubapi and code structure more organized.  
+* Create GithubApi.js 
+  * Set it up so that you can re-use calls to github without having to set the headers each time.
+  * a nice api would be something like `github.get('/users/:user')`
+  
