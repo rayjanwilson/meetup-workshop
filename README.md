@@ -12,5 +12,4 @@ Some big changes here from part 2:
 * Complete function `getConfig` 
   * Retrieve the url under `[remote "origin"]`
   * Get the user name and the owner name
-  * Resolve the promise with a shape that matches `{ owner, repo}`
-  
+  * Resolve the promise with a shape that matches `{ owner, repo } `
