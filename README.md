@@ -1,4 +1,4 @@
-# Part 1
+# Part 2
 
 We now have inquirer and node https setup and are connecting to github!  
 
